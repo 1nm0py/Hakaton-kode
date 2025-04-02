@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Roboto;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo_D {
+    cursor: pointer;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_logo {
+    width: 40%;
+}
+
+.h6_logo {
+    font-size: 26px;
+    font-weight: 700;
+
+    color: rgb(55, 174, 31);
+}
+
+.ul_li {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 0;
+    margin-bottom: 0;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.li_ul {
+    cursor: pointer;
+    color: gray;
+    transition: 300ms;
+}
+
+.li_ul:active { 
+    /* color: red; */
+    transform: scale(0.9);
+    border-bottom: 2px solid rgb(55, 174, 31);
+}
+
+.li_ul:hover {
+    cursor: pointer;
+    color: rgb(55, 174, 31);
+}
+
+.logos {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logos {
+    cursor: pointer;
+}
